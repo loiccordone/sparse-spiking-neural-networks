@@ -30,7 +30,7 @@ If you find this work useful feel free to cite our IJCNN paper:
 
 <br>
 
-    @InProceedings{Cordone_2022_IJCNN,
+    @InProceedings{Cordone_2021_IJCNN,
         author    = {Cordone, Loic and Miramond, Benoît and Ferrante, Sonia},
         title     = {Learning from Event Cameras with Sparse Spiking Convolutional Neural Networks},
         booktitle = {Proceedings of the IEEE International Joint Conference on Neural Networks (IJCNN) 2021.},
