@@ -4,7 +4,7 @@
 
 This repository contains the codes for the paper [Learning from Event Cameras with Sparse Spiking Convolutional Neural Networks](https://arxiv.org/abs/2104.12579), accepted to the IJCNN 2021, presenting a method to train sparse SNNs on event data using [surrogate gradient learning](https://arxiv.org/abs/1901.09948). 
 
-Inspired by [S2Net](https://github.com/romainzimmer/s2net) from Romain Zimmer. This code is shared for research purposes only, for application development using SNNs we recommendend to use the [SpikingJelly framework](https://github.com/fangwei123456/spikingjelly).
+Inspired by [S2Net](https://github.com/romainzimmer/s2net). This code is shared for research purposes only, for application development using SNNs we recommendend to use the [SpikingJelly framework](https://github.com/fangwei123456/spikingjelly).
 
 ***Repository will be updated soon***
 
@@ -22,3 +22,19 @@ Our main contributions are:
 <br>
 [2] T. Pellegrini, R. Zimmer, and T. Masquelier, ["Low-activity supervised convolutional spiking neural networks applied to speech commands recognition,"](https://arxiv.org/abs/2011.06846) IEEE Spoken Language Technology Workshop, 2021.
 
+# Citation
+
+If you find this work useful feel free to cite our IJCNN paper:
+
+    L. Cordone, B. Miramond and S. Ferrante, "Learning from Event Cameras with Sparse Spiking Convolutional Neural Networks", International Joint Conference on Neural Networks, 2021.
+
+<br>
+
+    @InProceedings{Cordone_2022_IJCNN,
+        author    = {Cordone, Loic and Miramond, Benoît and Ferrante, Sonia},
+        title     = {Learning from Event Cameras with Sparse Spiking Convolutional Neural Networks},
+        booktitle = {Proceedings of the IEEE International Joint Conference on Neural Networks (IJCNN) 2021.},
+        month     = {July},
+        year      = {2022},
+        pages     = {}
+    }
