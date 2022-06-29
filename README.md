@@ -6,8 +6,6 @@ This repository contains the codes for the paper [Learning from Event Cameras wi
 
 Inspired by [S2Net](https://github.com/romainzimmer/s2net). This code is shared for research purposes only, for application development using SNNs we recommendend to use the [SpikingJelly framework](https://github.com/fangwei123456/spikingjelly).
 
-***Repository will be updated soon***
-
 Our main contributions are:
 
 1. We propose an improvement over the supervised backpropagation-based learning algorithm using spiking neurons presented in [[1]](https://arxiv.org/abs/1901.09948) and [[2]](https://arxiv.org/abs/2011.06846) with the use of strided sparse convolutions. The training implementation is also modified to allow timestep-wise rather than layer-wise learning. This greatly reduces the training time while generating sparser networks during inference, with higher accuracy.
