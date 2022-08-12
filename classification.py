@@ -8,7 +8,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 
 import MinkowskiEngine as ME
 
-from dvs_gesture_dataset import SparseDvsGestureDataset
+from gesture_dataset import SparseDvsGestureDataset
 from models.snn import DenseSNN
 from models.sparse_snn import SparseSNN
 from classification_module import ClassificationLitModule
