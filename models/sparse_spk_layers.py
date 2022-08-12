@@ -69,6 +69,7 @@ class SparseSpikingConv2D(nn.Module):
     def reset_parameters(self):
         torch.nn.init.normal_(self.beta, mean=0.8, std=0.01)
         torch.nn.init.normal_(self.b, mean=0.1, std=0.01)
+        torch.nn.init.xavier_uniform_(self.conv.kernel.data, torch.nn.init.calculate_gain('sigmoid'))
     
     def clamp(self, min_beta=0., max_beta=1., min_b=0.):
         self.beta.data.clamp_(min_beta,max_beta)
